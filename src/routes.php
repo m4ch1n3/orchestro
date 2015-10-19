@@ -18,9 +18,6 @@ $router->get('articles/{id}', 'ArticlesController@show');
 
 // $router->get('about', 'PagesController@about');
 
-// $router->get('/', 'WelcomeController@index');
-// $router->get('home', 'HomeController@index');
-
 $router->controllers([
     'auth' => 'Auth\AuthController',
     'password' => 'Auth\PasswordController',
